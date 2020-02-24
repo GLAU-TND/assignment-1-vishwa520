@@ -77,4 +77,20 @@ public class TasksPerformed {
             System.out.println("no contact found!!!!");
         }
     }
+
+    public void deleteContact(newLL linkedList1) {
+        if (!linkedList1.isEmpty()) {
+            System.out.println("all the contact:" +
+                    " to delete the contact.");
+            linkedList1.displayOne();
+            int choice = scanner.nextInt();
+            scanner.nextLine();
+            linkedList1.deleteNode(choice);
+            linkedList1.displayOne();
+            System.out.println("deleted");
+        } else {
+            System.out.println("No Contacts && add contact before deleting it");
+        }
+    }
+
 }

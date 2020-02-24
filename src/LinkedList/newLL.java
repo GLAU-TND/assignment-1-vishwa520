@@ -13,4 +13,10 @@ public class newLL {
 
     public boolean isEmpty() {
     }
+
+    public void displayOne() {
+    }
+
+    public void deleteNode(int choice) {
+    }
 }
