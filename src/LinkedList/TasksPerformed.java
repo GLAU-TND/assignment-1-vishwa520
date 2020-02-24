@@ -93,4 +93,14 @@ public class TasksPerformed {
         }
     }
 
+    public void searchContact(newLL linkedList1) {
+        System.out.println("search via first names: ");
+        String firstName = scanner.nextLine().trim();
+        if (linkedList1.indexOf(firstName) >= 0) {
+            System.out.println("Match found");
+            linkedList1.getNode(linkedList1.indexOf(firstName));
+        } else {
+            System.out.println("No match found");
+        }
+    }
 }
