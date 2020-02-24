@@ -31,4 +31,21 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public LinkedList<String> getContacts() {
+        return contacts;
+    }
+
+    public void setContacts(LinkedList<String> contacts) {
+        this.contacts = contacts;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+
 }
