@@ -69,4 +69,12 @@ public class TasksPerformed {
         }
     }
 
+    public void viewcontact(newLL linkedList1) {
+        System.out.println("contacts available");
+        if (!linkedList1.isEmpty()) {
+            linkedList1.display();
+        } else {
+            System.out.println("no contact found!!!!");
+        }
+    }
 }

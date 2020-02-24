@@ -7,4 +7,10 @@ public class newLL {
 
     public void addLast(Person person) {
     }
+
+    public void display() {
+    }
+
+    public boolean isEmpty() {
+    }
 }
